@@ -10,7 +10,7 @@
 |-----------|-------------|--------|----------------|-----------|------------|----------|
 | Type | Terminal agent | IDE | IDE extension | Terminal agent | Terminal agent | IDE |
 | Vendor | Anthropic | Anysphere | GitHub/Microsoft | OpenAI | Google | Codeium |
-| Models | Claude family | Multi-model | GPT-4o/Claude | GPT-4o/o3 | Gemini 2.5 | Multi-model |
+| Models | Claude family | Multi-model | GPT-4o/Claude | codex-mini/GPT-5 | Gemini 2.5 | Multi-model |
 | Context | Entire project | File + refs | File + refs | Entire project | Entire project | File + refs |
 | Multi-file | Native | Composer mode | Limited | Native | Native | Cascade mode |
 | Learning curve | Medium | Low | Very low | Medium | Medium | Low |
@@ -28,7 +28,7 @@
 **Weaknesses**:
 - Requires terminal experience
 - No visual IDE interface
-- API pay-as-you-go, or Pro $20/mo (with usage limits), or Max $100-200/mo
+- API pay-as-you-go (Sonnet ~$3/$15 per M tokens), or Max subscription from $100/mo
 
 **Best for**: Senior developers, complex refactors, multi-file collaboration
 
@@ -101,14 +101,16 @@
 
 ## Pricing Comparison
 
-| Tool | Free Tier | Basic Plan | Premium Plan |
-|------|-----------|------------|--------------|
-| Claude Code | API pay-as-you-go (no subscription needed) | $20/mo (Pro, with usage limits) | $100-200/mo (Max, higher limits) |
-| Cursor | Limited free | $20/mo (Pro) | $40/mo (Business) |
-| GitHub Copilot | Limited free | $10/mo | $19/mo (Business) |
-| Codex CLI | API pay-as-you-go / with ChatGPT Plus | $20/mo (Plus) | $200/mo (Pro) |
-| Gemini CLI | Free (with quota) | — | $19.99/mo (Advanced) |
-| Windsurf | Limited free | $15/mo | $30/mo (Team) |
+| Tool | Price |
+|------|-------|
+| Claude Code | API pay-as-you-go (Sonnet ~$3/$15 per M tokens); Max subscription from $100/mo |
+| Cursor | $20/mo Pro, $60/mo Pro+, $200/mo Ultra, $40/user/mo Teams (credit-based) |
+| GitHub Copilot | Free tier available, $10/mo Pro, $39/mo Pro+, $19/user/mo Business |
+| Codex CLI | Free (limited); ChatGPT Plus $20/mo, Pro $200/mo |
+| Gemini CLI | Free (limited); AI Pro $19.99/mo |
+| Windsurf | $15/mo Pro, $30/user/mo Team |
+| Kiro | Free preview (launched 2025) |
+| Trae | Free (by ByteDance) |
 
 ## Migrating Between Tools
 

@@ -16,7 +16,11 @@
 | `Esc` | `Esc` | Reject AI completion suggestion |
 | `Cmd+Shift+L` | `Ctrl+Shift+L` | Add selected code to Chat context |
 
-## Three Interaction Modes
+## Agent Mode (Recommended)
+
+Since 2025, **Agent mode** has become the primary power-user workflow in Cursor. Select "Agent" in the Chat panel, and the AI will automatically read files, run terminal commands, edit across files, and iteratively fix errors — no manual step-by-step guidance needed. For complex tasks, Agent mode is significantly more efficient than manual Cmd+K / Composer usage.
+
+## Three Basic Interaction Modes
 
 ### 1. Tab Completion
 

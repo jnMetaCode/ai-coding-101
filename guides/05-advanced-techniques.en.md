@@ -63,7 +63,7 @@ Combine worktrees and multi-agent for true parallel development:
 for branch in feature/auth feature/payment feature/notification; do
   dir="../worktree-$(echo $branch | tr '/' '-')"
   git worktree add "$dir" "$branch"
-  (cd "$dir" && claude --message "Complete the tasks for this branch per TODO.md") &
+  (cd "$dir" && claude -p "Complete the tasks for this branch per TODO.md") &
 done
 wait
 ```

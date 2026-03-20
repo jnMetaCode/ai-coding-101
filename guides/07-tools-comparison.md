@@ -10,7 +10,7 @@
 |------|-------------|--------|----------------|-----------|------------|----------|
 | 类型 | 终端 Agent | IDE | IDE 插件 | 终端 Agent | 终端 Agent | IDE |
 | 开发商 | Anthropic | Anysphere | GitHub/Microsoft | OpenAI | Google | Codeium |
-| 模型 | Claude 系列 | 多模型 | GPT-4o/Claude | GPT-4o/o3 | Gemini 2.5 | 多模型 |
+| 模型 | Claude 系列 | 多模型 | GPT-4o/Claude | codex-mini/GPT-5 | Gemini 2.5 | 多模型 |
 | 上下文范围 | 整个项目 | 文件级 + 引用 | 文件级 + 引用 | 整个项目 | 整个项目 | 文件级 + 引用 |
 | 多文件编辑 | 原生支持 | Composer 模式 | 有限 | 原生支持 | 原生支持 | Cascade 模式 |
 | 学习曲线 | 中等 | 低 | 极低 | 中等 | 中等 | 低 |
@@ -28,7 +28,7 @@
 **劣势**：
 - 需要终端操作经验
 - 无可视化 IDE 界面
-- API 按量付费或订阅 Pro $20/月（有用量限制）、Max $100-200/月
+- API 按量付费（Sonnet ~$3/$15 per M tokens）或 Max 订阅 $100/月起
 
 **最适合**：资深开发者、复杂重构、多文件协作任务
 
@@ -101,14 +101,16 @@
 
 ## 定价对比
 
-| 工具 | 免费方案 | 基础方案 | 高级方案 |
-|------|---------|---------|---------|
-| Claude Code | API 按量付费（无需订阅） | $20/月 (Pro，有用量限制) | $100-200/月 (Max，更高用量) |
-| Cursor | 有限免费 | $20/月 (Pro) | $40/月 (Business) |
-| GitHub Copilot | 有限免费 | $10/月 | $19/月 (Business) |
-| Codex CLI | API 按量付费 / 随 ChatGPT Plus | $20/月 (Plus) | $200/月 (Pro) |
-| Gemini CLI | 免费（有配额） | — | $19.99/月 (Advanced) |
-| Windsurf | 有限免费 | $15/月 | $30/月 (Team) |
+| 工具 | 价格 |
+|------|-------|
+| Claude Code | API 按量付费（Sonnet ~$3/$15 per M tokens）; Max 订阅 $100/月起 |
+| Cursor | $20/月 Pro, $60/月 Pro+, $200/月 Ultra, $40/人/月 Teams（积分制） |
+| GitHub Copilot | 免费版可用, $10/月 Pro, $39/月 Pro+, $19/人/月 Business |
+| Codex CLI | 免费（受限）; ChatGPT Plus $20/月, Pro $200/月 |
+| Gemini CLI | 免费（受限）; AI Pro $19.99/月 |
+| Windsurf | $15/月 Pro, $30/人/月 Team |
+| Kiro | 免费预览版（2025年推出） |
+| Trae | 免费（字节跳动推出） |
 
 ## 工具迁移
 

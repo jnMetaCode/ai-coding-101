@@ -63,7 +63,7 @@ git worktree remove ../project-feature-auth
 for branch in feature/auth feature/payment feature/notification; do
   dir="../worktree-$(echo $branch | tr '/' '-')"
   git worktree add "$dir" "$branch"
-  (cd "$dir" && claude --message "完成这个分支的待办任务，参考 TODO.md") &
+  (cd "$dir" && claude -p "完成这个分支的待办任务，参考 TODO.md") &
 done
 wait
 ```
